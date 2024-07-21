@@ -15,7 +15,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
     width: 100%;
@@ -223,6 +223,10 @@
         width: 90%;
         padding: 1.5rem;
         margin: 10px 0;
+        position: absolute;
+        top: 30%; /* Adjust this value to move the card above the center */
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .profile-card .profile-pic img {
@@ -252,6 +256,7 @@
 @media (max-width: 480px) {
     .profile-card {
         padding: 1rem;
+        top: 20%; /* Further adjust for smaller screens */
     }
 
     .profile-card .profile-pic img {
