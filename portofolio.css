@@ -25,7 +25,7 @@
   .profile-card {
     background: transparent;
     backdrop-filter: blur(55px);
-    width: 400px;
+    width: 380px;
     padding: 3rem;
     border: 1px solid #ccc;
     border-radius: 10px;
