@@ -258,7 +258,10 @@
     .profile-card .profile-pic img {
         width: 120px;
     }
-
+    
+    .profile-details .intro {
+        width: 200px;
+      }
     .profile-details .intro h3 {
         font-size: 18px;
     }
