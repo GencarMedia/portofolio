@@ -29,7 +29,7 @@
   background: transparent;
   backdrop-filter: blur(20px);
   box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px black;
+              -15px -15px 30px black;
   width: 380px;
   padding: 3rem;
   border: 5px solid black;
@@ -155,7 +155,7 @@
 }
 
 .btn:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 .btn:active {
@@ -257,29 +257,30 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+
 .skills {
-	text-align: left;
-	padding: 15px;
+  text-align: left;
+  padding: 15px;
 }
 
 .skills ul {
   background-color: black;
   border-radius: 10px;
   width: 250px;
-	list-style-type: none;
+  list-style-type: none;
   font-size: 25px;
   color: white;
-	margin: 0;
-	padding: 10px;
+  margin: 0;
+  padding: 10px;
 }
 
 .skills ul li {
-	border: 1px solid white;
-	border-radius: 5px;
-	display: inline-block;
-	font-size: 12px;
-	margin: 0 7px 7px 0;
-	padding: 7px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
 }
 
 .button-container {
@@ -315,74 +316,93 @@
 .icon {
   font-size: 20px;
 }
+
 /* Media Queries */
 
 /* Tablets and small devices (landscape) */
 @media (max-width: 1024px) {
   .profile-card {
-      width: 90%;
-      padding: 2rem;
+    width: 90%;
+    padding: 2rem;
   }
 
   .profile-card .profile-pic img {
-      width: 200px;
+    width: 200px;
   }
 
-  .btn-shine {
-      font-size: 14px;
-      margin-top: 30px;
-      margin-left: 50px;
+  .btn {
+    width: 8rem;
+    height: 2.5rem;
+  }
+
+  .skills ul {
+    width: 220px;
+    font-size: 20px;
   }
 
   .button-container {
-      width: 200px;
+    width: 220px;
+  }
+
+  .button {
+    width: 35px;
+    height: 35px;
   }
 }
 
 /* Mobile phones */
 @media (max-width: 768px) {
   .about-container {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .profile-card {
-      width: 90%;
-      padding: 1.5rem;
-      margin: 10px 0;
+    width: 90%;
+    padding: 1.5rem;
+    margin: 10px 0;
   }
 
   .profile-card .profile-pic img {
-      width: 150px;
+    width: 150px;
   }
 
   .profile-details .intro h3 {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .profile-details .intro h1 {
-      font-size: 14px;
+    font-size: 14px;
   }
 
-  .btn-shine {
-      font-size: 12px;
-      margin-top: 20px;
-      margin-left: 40px;
+  .btn {
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .skills ul {
+    width: 200px;
+    font-size: 18px;
   }
 
   .button-container {
-      width: 180px;
+    width: 200px;
+  }
+
+  .button {
+    width: 30px;
+    height: 30px;
   }
 }
 
 /* Extra small devices (phones in portrait mode) */
 @media (max-width: 480px) {
   .profile-card {
-      padding: 1rem;
+    padding: 1rem;
   }
 
   .profile-card .profile-pic img {
-      width: 120px;
+    width: 120px;
   }
 
   .profile-details .intro {
@@ -390,21 +410,29 @@
   }
   
   .profile-details .intro h3 {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .profile-details .intro h1 {
-      font-size: 12px;
+    font-size: 12px;
   }
 
-  .btn-shine {
-      font-size: 10px;
-      margin-top: 15px;
-      margin-left: 30px;
+  .btn {
+    width: 6rem;
+    height: 1.5rem;
+  }
+
+  .skills ul {
+    width: 180px;
+    font-size: 16px;
   }
 
   .button-container {
-      width: 150px;
+    width: 180px;
+  }
+
+  .button {
+    width: 25px;
+    height: 25px;
   }
 }
-
