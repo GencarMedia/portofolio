@@ -264,7 +264,7 @@
 
 .skills ul {
   background-color: black;
-  border-radius: 10px;
+  border-radius: 12px;
   width: 250px;
 	list-style-type: none;
   font-size: 25px;
@@ -285,12 +285,13 @@
 .button-container {
   display: flex;
   background-color: black;
+  padding: 6px 10px;
   margin-top: 5px;
-  width: 250px;
+  width: 30px;
   height: 40px;
   align-items: center;
   justify-content: space-around;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .button {
@@ -298,6 +299,7 @@
   border: 0 !important;
   width: 40px;
   height: 40px;
+  font-weight: bolder;
   border-radius: 50%;
   background-color: transparent;
   display: flex;
@@ -382,7 +384,7 @@
   }
 
   .profile-card .profile-pic img {
-      width: 120px;
+      width: 250px;
   }
 
   .profile-details .intro {
@@ -390,7 +392,8 @@
   }
   
   .profile-details .intro h3 {
-      font-size: 18px;
+    margin-top: 5px;
+      font-size: 30px;
   }
 
   .profile-details .intro h1 {
@@ -404,7 +407,6 @@
   }
 
   .button-container {
-      width: 150px;
+      width: 250px;
   }
 }
-
